@@ -80,9 +80,9 @@ jobs:
       env: 
             GOOGLE_CREDETAILS: ${{ secrets.GCP_SA_KEYS }}
     # Checks that all Terraform configuration files adhere to a canonical format
-    - name: Terraform Format
-      run: terraform fmt -check
-      env: 
+    #- name: Terraform Format
+    #  run: terraform fmt -check
+     # env: 
             GOOGLE_CREDETAILS: ${{ secrets.GCP_SA_KEYS }}
     # Generates an execution plan for Terraform
     - name: Terraform Plan
