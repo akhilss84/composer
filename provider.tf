@@ -9,4 +9,5 @@ terraform {
 provider "google" {
   project     = "even-environs-303912"
   region      = "us-central1"
+  zone        = "us-central1-c"
 }
